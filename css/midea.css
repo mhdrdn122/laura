@@ -1,0 +1,298 @@
+
+@media screen  and (max-width:767px){
+  section{
+    width: 96%;
+}/*
+.header-section{
+    width: 66%;
+}
+*/
+
+.header-section p{
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+}
+}
+
+/*  sec hero  start*/
+@media screen  and (max-width:767px){
+
+    #home {
+        width: 100%;
+        background-size: cover;
+      
+    }
+    nav{
+        width: 100%;
+       position: fixed;
+       padding: 20px 0;
+       box-shadow: none;
+    }
+    nav label{
+        display: block;
+    }
+    nav ul{
+        display: none;
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top:50% ;
+        z-index: 4;
+        border-radius: 20px;
+        transform: translate(-50%,20%);
+        background-color:  #688092ce;;
+        text-align: center;
+        margin: 0 auto;
+        animation: anim 0.4s;
+    }
+    nav ul li{
+        width: 100%;
+        border-bottom: 1px solid rgb(233 232 232 / 54%);
+        transition: all 0.5s;
+    }
+    nav ul li:nth-child(6){
+        border-bottom:none;
+        border-radius:0 0 20px  20px;
+    }
+    nav ul li:hover{
+        border-radius: 20px;
+     background-color: #3c434786;
+    }
+    nav input:checked ~ ul.list-style{
+        display: block;
+    }
+  
+    nav ul li a{
+    width: 100%;
+    display: block;
+    }
+
+    @keyframes anim{
+        0%{opacity:0.2;}
+        100%{opacity:1;}
+    }
+    
+
+    .drop{
+        width: 47%;
+        top: 58%;
+        height: 75%;
+        left: 81%;
+    }
+
+    .drop li a{
+        width: 100%;
+    }
+   
+}
+
+
+/*  sec hero end*/
+
+
+/*  sec about  start*/  
+@media screen  and (max-width:767px){
+ 
+   #about .header-section h1::after{
+    width: 71%;
+    left: 16%;
+}
+  #about .d-flex{
+       display: inline-block;
+   }
+   #about .d-flex img{
+       width: 260%;
+   }
+
+   [style="width: 60%;"] div.d-flex{
+       width: 140%;
+       margin: 10px 13px;
+       
+   }
+   .item1 h4 ,.item2 h4,
+   .item1 h4::before,.item2 h4::before{
+    font-size: 23px;
+   }
+   .item1 h4 span,.item2 h4 span{
+       font-size: 18px;
+   }
+  .card-group{
+      width: 70%;
+  }
+  .card-group p{
+    font-size: 18px;
+  }
+
+  .skill-about{
+      width: 155%;
+      margin: 0 6%;
+  }
+  .skill{
+    
+    font-size: 20px;
+  }
+}
+
+/*  sec about  start*/  
+
+/*  sec resume  start*/
+@media screen  and (max-width:767px){
+
+    .resume div.d-flex{
+      display: block;
+    }
+    .res-ch{
+        width: 90%;
+        font-size: 20px;
+        margin-left: 16px;
+    }
+    .res-ch .res-title{
+        margin-left: 10px;
+    }
+    .res-ch .res-item{
+        font-size: 20px;
+    }
+    .res-ch .res-item{
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
+/*  sec resume  End*/
+
+/*  sec service  start*/
+@media screen  and (max-width:767px){
+
+    #service .d-flex{
+        display: block;
+       width: 70%;
+    margin: 0 auto
+    }
+    
+   
+    #service .header-section h1::after{
+        width: 80%;
+        left: 10%;
+    }
+    .service-per > .ser-card{
+        width: 100%;
+        margin:  10% 8%;
+        height: 40%;
+        padding:4px 10px;
+    }
+    #service .service-per .ser-card p{
+        font-size: 20px;
+        line-height: 26px;
+        word-wrap: break-word;
+    }
+}
+
+/*  sec service  End*/
+
+
+/*  sec slidr  start*/
+
+@media screen  and (max-width:767px){
+
+
+    .slide{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-attachment: local;
+    }
+    .slide img{
+        width: 30%;
+    }
+    .slide .dot-per span{
+       width: 10px;
+       margin-top: 65%;
+    }
+
+    .slide p{
+        line-height: 20px;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    .slide .slide-body {
+        margin-top:  4%;
+    }
+    .slide i{
+        font-size: 20px;
+    }
+
+}
+
+/*  sec slidr  End*/
+/*  sec pricing  start*/
+
+@media screen  and (max-width:767px){
+    .pricing .header-section h1::after{
+        left: 18%;
+    }
+    .pricing .d-flex{
+        display: block;
+    }
+    .pric{
+        width: 100%;
+    }
+    
+    .pric-card{
+     width: 67%;
+     margin: 5% 18%;
+    }
+}
+/*  sec pricing  End*/
+
+
+/*  sec contact  start*/
+@media screen  and (max-width:767px){
+    .contact{
+        height: 1200px;
+    }
+    .contact .header-section h1::after{
+        left: 6%;
+        width: 90%;
+    }
+    .contact   .d-flex{
+     display: block;
+    }
+    .contact-ch{
+        width: 90%;
+        margin: 4% 7%
+    }
+    .contact-ch .social {
+      width: 100%;
+    }
+   
+   
+}
+/*  sec contact  end*/
+
+/*  sec Footr  start*/
+@media screen  and (max-width:767px){
+  .footr{
+      width: 100%;
+  }
+  .fot-cont{
+      width: 90%;
+  }
+  .fot-cont .social {
+      width: 60%;
+  }
+  .arrow-fix a{
+      left: 92%;
+     
+  }
+   
+  .arrow-fix a i{
+    font-size: 18px;
+  }
+
+
+}
+
+/*  sec footr  end*/
