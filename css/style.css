@@ -829,7 +829,7 @@ textarea{
         .arrow-fix{
              
         }
-        [href="#home1"]{
+        .arrow-fix [href="#home1"]{
             background-color: #ffb727;
             padding: 4px 8px 0 8px;
             text-decoration: none;
@@ -839,9 +839,11 @@ textarea{
             top: 96%;
             left: 126%;
         }
-        [href="#home1"] i{
-          
-            font-size: 18px;
+     
+       
+        .arrow-fix [href="#home1"] i{
+          font-size: 18px;
+            
         }
    /* End Footr*/
 
